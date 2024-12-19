@@ -4,7 +4,7 @@
   "description": "",
   "main": "primitive-and-non-primitive.js",
   "scripts": {
-    "nodemon": "nodemon primitive-and-non-primitive",
+    "nodemon": "nodemon objects",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
