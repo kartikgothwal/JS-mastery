@@ -3,7 +3,7 @@
 
 //gives true or false
  const value = confirm("are your sure you want to continue") 
- console.log("🚀 ~ value:", value)
+ console.log("🚀 ~ value:", value);
  
 
 //this is used for entering a value from the user
