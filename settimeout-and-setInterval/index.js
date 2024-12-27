@@ -1,13 +1,23 @@
-setTimeout("console.log('Hello, World!')", 1000, "djdj", 'zkkd');
+setTimeout(()=>{
+     console.log('Hello')
+})
+setTimeout(()=>{
+     console.log('Hello')
+},2000)
 
-setTimeout("console.log('Hello, World!')");
+setTimeout("console.log('Hello world')")
+setTimeout("console.log('Hello world');let i=200; console.log(i)")
 
-const timer1 = setTimeout(()=>{
-     console.log('setTimeout', new Date());
-    }, 1000);
- 
-    clearInterval(timer1);
+const timer = setTimeout(()=>{
+     console.log("LLLLLL")
+},2000)
+
+// clearTimeout(time)
+clearInterval(timer)
+
+
 const timer2 = setInterval(()=>{
-     console.log('setInterval', new Date());
-    }, 1000);
- clearInterval(timer2);
+     console.log('Fooo')
+},2000)
+// clearInterval(timer2)
+clearTimeout(timer2)
