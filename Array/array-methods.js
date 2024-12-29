@@ -42,7 +42,10 @@ const Array2 = [1, 2, 3, 4, 5, 6];
 // console.log(students.findIndex((item)=>item.name=="isha"))
 // console.log(students.findLastIndex((item)=>item.name=="isha"));
 // console.log(students.concat([{name:"usha"}]))
-// console.log(students.some((item)=>item.age<25));
+// console.log(Array2.some((item)=>{
+//     debugger
+//     return item>7
+// }));
 // console.log(students.every((item)=>item.age<25));
 // console.log(students.find((item)=>item.age==25));
 // console.log(students.push({

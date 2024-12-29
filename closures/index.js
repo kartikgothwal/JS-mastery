@@ -11,7 +11,7 @@ function closure(){
     let count =0;
    return function abc(){
      count++;
-       console.log(count)
+     console.log(count)
    }
 }
 const x1 = closure();

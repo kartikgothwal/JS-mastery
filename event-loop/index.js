@@ -5,7 +5,6 @@
 // })
 // console.log("End");
 
-debugger
  console.log("Hello world")
 setTimeout(()=>{
     console.log("Timeout")
