@@ -1,13 +1,78 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning</title>
+    <title>My First HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 2em;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .content-section {
+            margin-bottom: 2em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
 
- </head>
- <body>
-    <h1>Hello world</h1>
- </body>
- <script src="/destructuring.js"></script>
- </html>
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<main>
+    <div class="content-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name]. I'm passionate about web development and this is my first HTML page. I enjoy learning new technologies and creating beautiful, responsive websites.</p>
+    </div>
+    
+    <div class="content-section">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Hiking</li>
+            <li>Photography</li>
+            <li>Traveling</li>
+        </ul>
+    </div>
+    
+    <div class="content-section">
+        <h2>Contact Me</h2>
+        <p>If you want to get in touch, you can reach me at:</p>
+        <ul>
+            <li>Email: [Your Email]</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Website</p>
+</footer>
+
+</body>
+<script src="./DOM/selecting-HTML_elements/index.js"></script>
+</html>
