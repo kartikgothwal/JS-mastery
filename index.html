@@ -34,38 +34,46 @@
             margin-bottom: 2em;
             color: white;
         }
+        [type="text"] 
+        { color: #4CAF50;}
+        ul{
+         display: none;
+        }
+        #box{
+         background-color: red;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to My Website</h1>
+    <h1 id="heading">Welcome to My Website</h1>
 </header>
 
 <main>
     <div class="content-section">
-        <h2>About Me</h2>
-        <p>Hi, I'm [Your Name]. I'm passionate about web development and this is my first HTML page. I enjoy learning new technologies and creating beautiful, responsive websites.</p>
+        <h2 class="heading-2">About Me</h2>
+        <p kartik="okay" okay="kartik">Hi, I'm [Your Name]. I'm passionate about web development and this is my first HTML page. I enjoy learning new technologies and creating beautiful, responsive websites.</p>
     </div>
     
     <div class="content-section">
-        <h2>My Hobbies</h2>
-        <ul>
-            <li>Reading</li>
-            <li>Coding</li>
-            <li>Hiking</li>
+        <h2 class="heading-2">My Hobbies</h2>
+        <ul id="ul"><li>Reading</li><li>Coding</li><li>Hiking</li>
             <li>Photography</li>
             <li>Traveling</li>
         </ul>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, voluptatibus.</span>
     </div>
     
     <div class="content-section">
-        <h2>Contact Me</h2>
+        <h2 class="heading-2">Contact Me</h2>
         <p>If you want to get in touch, you can reach me at:</p>
-        <ul>
-            <li>Email: [Your Email]</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></li>
-        </ul>
+        
+    </div>
+    
+    <div class="content-section">
+        <h2 class="heading-2">Contact Me</h2>
+         <input type="text" placeholder="enter you name">
     </div>
 </main>
 
@@ -74,5 +82,9 @@
 </footer>
 
 </body>
-<script src="./DOM/selecting-HTML_elements/index.js"></script>
+<!-- <script src="./DOM/selecting-HTML_elements/index.js"></script> -->
+<!-- <script src="./DOM/innerText-innerHTML-textcontent/index.js"></script> -->
+<!-- <script src="./DOM/setAttributes_and_getAttributes/index.js"></script> -->
+<!-- <script src="./DOM/styles_with_JS/index.js"></script> -->
+<script src="./DOM/accessing_parent_children_siblings/index.js"></script>
 </html>
