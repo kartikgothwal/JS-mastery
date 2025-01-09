@@ -11,7 +11,7 @@ class User extends Humas{
         this.age=age;
     }
     getName(){
-        return "Hello world";
+        return "Hello world"
         
     }
 }
